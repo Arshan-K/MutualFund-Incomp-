@@ -1,0 +1,15 @@
+.mutual-funds {
+  padding: 2rem;
+  text-align: center;
+}
+
+.mutual-funds h2 {
+  margin-bottom: 1.5rem;
+}
+
+.fund-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}

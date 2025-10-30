@@ -1,0 +1,35 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global colors */
+body {
+  background-color: #fffdf7;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; /* Push footer to bottom */
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #d4af37;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b5942b;
+}
