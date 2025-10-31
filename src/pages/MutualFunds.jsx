@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import FundCard from '../components/FundCard'
-// import '../styles/MutualFunds.css'
+import '../styles/MutualFunds.css'
 
 export default function MutualFunds() {
   const [funds, setFunds] = useState([])
@@ -40,9 +40,16 @@ export default function MutualFunds() {
 
   return (
     <div className="mutual-funds">
-      <h2>All Mutual Funds</h2>
+      <h2 className="premium">Explore Mutual Funds</h2>
+
+      <p className="mutual-intro">Hand-picked insights and <span className="cursive">curated</span> lists to help you compare funds by category, risk, and long-term performance. Use the cards below to quickly view NAVs and visit the fund page for more details.</p>
+
       <div className="fund-list">
-        {funds.map(fund => <FundCard key={fund.name} fund={fund} />)}
+        {funds.length === 0 ? (
+          <p className="muted">No funds available right now.</p>
+        ) : (
+          funds.map(fund => <FundCard key={fund.name} fund={fund} />)
+        )}
       </div>
     </div>
   )

@@ -4,13 +4,51 @@
 }
 
 .home h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  color: #b2872e;
 }
 
 .home p {
-  color: #555;
-  max-width: 600px;
-  margin: 0 auto;
+  color: #444;
+  max-width: 700px;
+  margin: 0.6rem auto;
   line-height: 1.6;
+}
+
+.home .lead {
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.home .muted {
+  color: #6b6b6b;
+  margin-top: 0.25rem;
+}
+
+.cta {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-gold {
+  background: linear-gradient(180deg,#d4af37,#b5942b);
+  color: #fff;
+  padding: 0.7rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(181, 141, 53, 0.12);
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid rgba(180,140,50,0.18);
+  color: #6b6b6b;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
 }

@@ -21,16 +21,23 @@
 }
 
 .contact button {
-  background-color: #d4af37;
+  background: linear-gradient(180deg,#d4af37,#b5942b);
   color: white;
   border: none;
   padding: 0.8rem;
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.2s, transform 0.12s;
+  box-shadow: 0 6px 14px rgba(181,141,53,0.12);
 }
 
 .contact button:hover {
+  transform: translateY(-2px);
   background-color: #b5942b;
+}
+
+.contact .muted {
+  color: #666;
+  margin-bottom: 0.5rem;
 }

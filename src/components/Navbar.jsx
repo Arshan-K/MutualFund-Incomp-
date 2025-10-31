@@ -5,7 +5,7 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2>Mutual Fund Info</h2>
+      <h2>MF Corporation</h2>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/mutual-funds">Funds</Link></li>

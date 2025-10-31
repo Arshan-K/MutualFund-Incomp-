@@ -33,3 +33,21 @@ a {
 a:hover {
   color: #b5942b;
 }
+
+/* Premium helpers */
+.cursive {
+  font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+  font-style: italic;
+}
+
+.italic, em {
+  font-style: italic;
+}
+
+.premium {
+  color: #b2872e;
+}
+
+.btn-gold {
+  display: inline-block;
+}

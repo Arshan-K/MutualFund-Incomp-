@@ -4,7 +4,8 @@
 }
 
 .mutual-funds h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.4rem;
+  color: #b2872e;
 }
 
 .fund-list {
@@ -12,4 +13,14 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
+}
+
+.mutual-intro {
+  max-width: 820px;
+  margin: 0.6rem auto 1rem;
+  color: #444;
+}
+
+.mutual-funds .muted {
+  color: #777;
 }

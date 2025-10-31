@@ -10,9 +10,12 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <h2>Contact Us</h2>
+      <h2 className="premium">Get in touch</h2>
+
+      <p className="muted">Have a question or feedback? Drop us a message and we'll reply as soon as we can.</p>
+
       {submitted ? (
-        <p>Thank you! We'll get back to you soon.</p>
+        <p><em>Thank you!</em> We'll get back to you soon.</p>
       ) : (
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Your Name" required />

@@ -7,5 +7,15 @@
 
 .about p {
   margin-bottom: 1rem;
-  color: #555;
+  color: #444;
+}
+
+.about h2 {
+  color: #b2872e;
+}
+
+.about .signature {
+  margin-top: 1.25rem;
+  color: #6b6b6b;
+  font-style: italic;
 }

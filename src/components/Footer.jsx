@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>© 2025 Mutual Fund Info | Educational purposes only</p>
+      <p>© 2025 MF Corporation</p>
     </footer>
   )
 }
