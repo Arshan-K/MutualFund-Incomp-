@@ -15,6 +15,22 @@
   gap: 1.5rem;
 }
 
+/* Make card layout responsive: use grid on small screens for better wrapping */
+@media (max-width: 900px) {
+  .fund-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    align-items: start;
+  }
+}
+
+@media (max-width: 480px) {
+  .mutual-funds {
+    padding: 1rem;
+  }
+}
+
 .mutual-intro {
   max-width: 820px;
   margin: 0.6rem auto 1rem;

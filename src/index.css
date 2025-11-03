@@ -15,9 +15,21 @@ body {
   min-height: 100vh;
 }
 
+/* Ensure the React mount root behaves as a full-height flex column so footer can be pushed to bottom */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 main {
   flex: 1; /* Push footer to bottom */
   padding: 2rem;
+}
+
+/* ensure content is not hidden behind a fixed footer on small screens */
+main.reserved-footer-padding {
+  padding-bottom: 5.2rem; /* space for footer when fixed */
 }
 
 h1, h2, h3 {

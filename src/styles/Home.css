@@ -21,6 +21,20 @@
   color: #333;
 }
 
+@media (max-width: 520px) {
+  .home {
+    padding: 2rem 1rem;
+  }
+
+  .home h1 {
+    font-size: 1.6rem;
+  }
+
+  .home .lead {
+    font-size: 0.98rem;
+  }
+}
+
 .home .muted {
   color: #6b6b6b;
   margin-top: 0.25rem;

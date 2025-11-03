@@ -23,6 +23,36 @@
   gap: 1.5rem;
 }
 
+/* Responsive navbar: stack links and center brand on small screens */
+@media (max-width: 720px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.8rem 1rem;
+    align-items: center;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .navbar h2 {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .navbar {
+    padding: 0.6rem 0.6rem;
+  }
+
+  .navbar ul {
+    gap: 0.6rem;
+  }
+}
+
 .navbar a {
   font-weight: 500;
   transition: color 0.3s;
